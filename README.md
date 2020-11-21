@@ -1,2 +1,3 @@
-# algorithm
-Implementation of some algorithms and data structures in C / C ++
+# Algorithms
+Реализация некоторых алгоритмов и структур данных на языке C++ по книге Рода Стивенса **"Алгоритмы.Теория и практическое применение"**. 
+
