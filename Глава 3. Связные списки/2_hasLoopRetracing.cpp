@@ -25,11 +25,11 @@ public:
      * @return false    - если список не имеет цикл
      */
     bool hasLoopRetracing(){
-        Elem<int> *tmp = head;
+        Elem<T> *tmp = head;
         if(tmp == nullptr)  return false;
 
         while(tmp->next != nullptr){
-            Elem<int> *tracer = tmp->next;
+            Elem<T> *tracer = tmp->next;
             while(tracer->next != nullptr){
                 if(tracer->next == tmp->next)   return true;
                 tracer = tracer->next;
